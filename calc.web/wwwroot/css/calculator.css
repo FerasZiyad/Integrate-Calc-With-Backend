@@ -1,0 +1,136 @@
+.row {
+    display: block;
+}
+
+
+.web-calc {
+    position: absolute;
+    border: 1px solid #e3e3e3;
+    width: 43em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+    .web-calc .container {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+
+    div.row {
+        margin-left: 0;
+    }
+
+    .web-calc .result {
+        margin-bottom: 1em;
+        margin-right:0;
+        font-size: 2rem;
+        padding: 10px;
+        width: 97%;
+        height: 2em;
+        border: 1px solid #e3e3e3;
+        text-align: right;
+    }
+
+
+    .web-calc .container .row .calc-btn {
+        
+        display: inline-block;
+        border: none;
+        box-shadow: none;
+        background-color: #cfcccc;
+        width: 5em;
+        height: 4em;
+        margin-right: 0.5em;
+        /* margin-right: 0.5em; */
+        margin-bottom: 1em;
+        border-radius: 5px;
+        outline: none;
+        margin-left:0;
+    }
+
+
+    .web-calc .container .row button.calc-btn:hover {
+        background-color: grey;
+    }
+
+    .web-calc .container .row button.calc-btn:active {
+        transform: translateY(2px);
+    }
+
+
+
+    .web-calc .container .row .radDeg {
+        width: 10.7em;
+    }
+
+        .web-calc .container .row .radDeg .deg {
+            color: grey;
+        }
+
+    .web-calc .container .row .calc-num {
+        background-color: #e8e8e8;
+    }
+
+    .web-calc .container .row .blue {
+        background-color: #0d688c;
+    }
+
+    
+
+@media screen and (max-width:1000px) {
+    .web-calc {
+        width: 23em;
+    }
+
+        .web-calc .result {
+            width: 96%;
+        }
+
+        .web-calc .container .row .calc-btn {
+            width: 4.4em;
+        }
+
+        .web-calc .container .row .scientific-calc {
+            display: none;
+        }
+}
+
+
+/* @media screen and (max-width:1300px){
+    .web-calc{
+        width: 60em;
+    }
+    
+    .web-calc .container .row .calc-btn{
+        width: 9.1em;
+        height: 4em;
+        margin-right: 0.5em;
+    }    
+} */
+
+/* @media screen and (max-width:1000px){
+    .web-calc{
+        width: 40em;
+    }
+        
+    .web-calc #result{
+        width: 95%;
+    }
+        
+    .web-calc .container .row .calc-btn{      
+        width: 5.67em;
+        border-radius: 5px;
+    }
+    
+    .web-calc .container .row .calc-num{
+        background-color: #e8e8e8;
+    }    
+    .web-calc .container .row .blue{
+        background-color: #0d688c;
+    }
+    
+} */
+

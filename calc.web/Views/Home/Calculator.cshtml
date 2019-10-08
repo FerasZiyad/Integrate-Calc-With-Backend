@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+<div class="web-calc" id="calc">
+    <div class="container">
+        <input class="result" type="text" placeholder="result">
+
+
+        <div class="row">
+            <button class="calc-btn scientific-calc radDeg"><span class="rad"> Rad</span> <span> | </span> <span class="deg"> Deg</span></button>
+            <button class="calc-btn scientific-calc">x!</button>
+            <button class="calc-btn">(</button>
+            <button class="calc-btn">)</button>
+            <button class="calc-btn"> % </button>
+            <button class="calc-btn">AC</button>
+        </div>
+        <div class="row">
+            <button class="calc-btn scientific-calc">inv</button>
+            <button class="calc-btn scientific-calc">sin</button>
+            <button class="calc-btn scientific-calc">in</button>
+            <button class="calc-btn calc-num">7</button>
+            <button class="calc-btn calc-num">8</button>
+            <button class="calc-btn calc-num">9</button>
+            <button class="calc-btn">/</button>
+        </div>
+        <div class="row">
+            <button class="calc-btn scientific-calc">rte</button>
+            <button class="calc-btn scientific-calc">cos</button>
+            <button class="calc-btn scientific-calc">log</button>
+            <button class="calc-btn calc-num">4</button>
+            <button class="calc-btn calc-num">5</button>
+            <button class="calc-btn calc-num">6</button>
+            <button class="calc-btn">*</button>
+        </div>
+        <div class="row">
+            <button class="calc-btn scientific-calc">e</button>
+            <button class="calc-btn scientific-calc">tan</button>
+            <button class="calc-btn scientific-calc">sd</button>
+            <button class="calc-btn calc-num">1</button>
+            <button class="calc-btn calc-num">2</button>
+            <button class="calc-btn calc-num">3</button>
+            <button class="calc-btn">-</button>
+        </div>
+        <div class="row">
+            <button class="calc-btn scientific-calc">Ans</button>
+            <button class="calc-btn scientific-calc">EXP</button>
+            <button class="calc-btn scientific-calc">x <sup>y</sup></button>
+            <button class="calc-btn calc-num">0</button>
+            <button class="calc-btn calc-num">.</button>
+            <button class="calc-btn calc-num blue">=</button>
+            <button class="calc-btn">+</button>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script type="text/javascript" src="~/js/calculator.js"></script>
+
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/calculator.css" />
+}
+
